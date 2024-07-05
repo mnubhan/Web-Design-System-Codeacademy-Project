@@ -1,0 +1,42 @@
+:root{
+    --biege:#FFF5E1;
+    --red:#FF6969;
+    --maroon:#C80036;
+    --navy:#0C1844;
+}
+*{
+    border:red 1px dashed;
+}
+h1,h2{
+    text-align:center;
+}
+.color-section__container{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-around;
+    align-items:center;
+}
+.color-section__board{
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content:start;
+    align-items:center;
+}
+.color-section__box{
+    width:200px;
+    height:100px;
+    border-radius:10px;
+}
+
+.color-section__box_biege{
+    background-color:var(--biege);
+}
+.color-section__box_red{
+    background-color:var(--red);
+}
+.color-section__box_maroon{
+    background-color:var(--maroon);
+}
+.color-section__box_navy{
+    background-color:var(--navy);
+}
