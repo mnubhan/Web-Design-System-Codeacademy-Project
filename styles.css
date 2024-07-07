@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root{
     --biege:#FFF5E1;
     --red:#FF6969;
     --maroon:#C80036;
     --navy:#0C1844;
 }
-*{
-    border:red 1px dashed;
-}
 h1,h2{
     text-align:center;
+}
+section{
+    margin-inline:auto;
+}
+
+.color-section{
+    border:1px solid black;
+    margin:10px;
 }
 .color-section__container{
     display:flex;
@@ -27,6 +33,7 @@ h1,h2{
     width:200px;
     height:100px;
     border-radius:10px;
+    box-shadow:1px 1px 30px rgba(0,0,0,0.1);
 }
 
 .color-section__box_biege{
@@ -40,4 +47,48 @@ h1,h2{
 }
 .color-section__box_navy{
     background-color:var(--navy);
+}
+.font__section{
+    border:1px solid black;
+    margin:10px;
+}
+.font__section_container{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-around;
+}
+
+.font__bold{
+    font-weight:800;
+}
+
+.font__italic{
+    font-style:italic;
+}
+
+.font-style_poppins{
+    font-family:'Poppins', sans-serif;
+}
+
+.font-style_kanit{
+    font-family:'Kanit', sans-serif;
+}
+
+.text-style__section{
+    border:1px solid black;
+    margin:10px;
+
+}
+.h1-style{
+    text-align:left;
+}
+
+.h2-style{
+    text-align:left;
+}
+
+.text-style__container{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-around;
 }
